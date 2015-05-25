@@ -1,0 +1,47 @@
+<!-- 
+****************************************
+Header Template
+By Joseph Pullan (Fezodge III)
+Last Updated: 25/05/2015
+
+This is a basic header template for any website. The HTML is sjown below and the CSS can be found in the document next to this. The CSS will add some hover elements, as well as drop shadows, ect.
+
+If you would like to use this code, then please feel free to do so, and you may change this in whatever ways you like. As I said before, this is a template, so anything can be done with it.
+****************************************
+-->
+
+<header class="main-header">
+	<div class="logo">
+		<a href="#" class="logo-link"> <!-- The site that your logo's link will take your users to -->
+		<img src="Images/Kiwi%20Fruit%20(New)%20Banner.png" id="logo"> <!-- Link to your Logo, whether on your system or online -->
+		</a>
+	</div>
+	<ul class="site-links">
+		
+		<!-- The way that the active effect works (when the hover colour shows up when you are on that page, and not hovering over it) is by having an id selector in the respective <li> group that the page you are on is. For example, if you were on the page 'link-3' the 'link-3' <li> group would have #link-3 in it. -->
+		
+		<li class="header-links">
+			<a class="header-text" href="#">Link 1</a> <!-- Header Text -->
+		</li>
+
+		<li class="header-links">
+			<a class="header-text" href="#">Link 2</a>
+		</li>
+
+		<li class="header-links" id="link-3"> <!-- Demonstrating the active effect -->
+			<a class="header-text" href="#">Link 3</a>
+		</li>
+															
+		<li class="header-links">
+			<a class="header-text" href="#">Link 4</a>
+		</li>
+
+		<li class="header-links">
+			<a class="header-text" href="#">Link 5</a>
+		</li>
+		
+		<!-- To move the link order around just cut and paste the <li> group into the desired position. Higher = Left, Lower = Right. -->
+		
+		<!-- It should be relitively easy to add more links onto the navigation bar. Just copy and paste one of the <li> groups in the desired position, rename it (and change links and stuff), and your good to go!-->
+	</ul>
+</header>

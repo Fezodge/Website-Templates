@@ -1,0 +1,82 @@
+/*  
+*****************************************
+The CSS for the header template. (Meta information can be found on the HTML page)
+
+All the colours, sizes and shadows can be changed.
+*****************************************
+*/
+
+.main-header { /* Sets the colour and position of the header, and fixes it to the screen */
+	background-color: #564800;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	
+	/* This is the shadow section */
+	-webkit-box-shadow: 0 8px 8px -6px #000; /* horisontal align, vertical align, blur amount, spread amount, colour. */
+	-moz-box-shadow: 0 8px 8px -6px #000;
+	box-shadow: 0 8px 8px -6px #000;
+}
+
+.header-links { /* This section makes your links all on the sam line, and centered inside there boxes */
+    display: inline-block; 
+    text-align: center;
+}
+
+.header-links a { /* Makes the links nicer looking and iligns them properly */
+	color: #fff;
+	text-decoration: none;
+	padding-top: 15px;
+	padding-left: 21px;
+	padding-right: 21px;
+	padding-bottom: 16px;
+}
+
+.header-links a:hover { /* The hover changes for the links */
+	  color: #32A800;
+	  background-color: #fff;
+}
+
+/* Start of 'active' section */
+#link-1 a {
+	color: #32A800;
+	background-color: #fff;
+}
+
+#link-2 a {
+	color: #32A800;
+	background-color: #fff;
+}
+
+#link-3 a {
+	color: #32A800;
+	background-color: #fff;
+}
+
+#link-4 a {
+	color: #32A800;
+	background-color: #fff;
+}
+
+#link-5 a {
+	color: #32A800;
+	background-color: #fff;
+}
+/* end of 'active' section */
+
+.main-header ul { /* Center aligns the links */
+	  margin-left: auto;
+	  margin-right: auto;
+}
+
+.logo { /* Mkaes your logo align and look properly */
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	padding-top: 10px;
+}
+
+#logo { /* Sets the size of your logo */
+	width: 270px;
+}
